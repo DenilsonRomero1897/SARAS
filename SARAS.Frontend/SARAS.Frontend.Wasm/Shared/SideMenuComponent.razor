@@ -1,0 +1,147 @@
+﻿<div class="h-100" id="leftside-menu-container" data-simplebar>
+    <ul class="side-nav">
+        <li class="side-nav-item side-nav-item @_inicioActive">
+            <NavLink href="inicio" class="side-nav-link" @onclick="() => ActivarLink(1)">
+                <i class="fas fa-home"></i>
+                <span> Inicio </span>
+            </NavLink>
+        </li>
+        <li class="side-nav-item side-nav-item @_administracio">
+            <NavLink href="deposito" class="side-nav-link" @onclick="() => ActivarLink(2)">
+                <i class="fas fa-user-cog"></i>
+                <span> Admin </span>
+            </NavLink>
+        </li>
+        <li class="side-nav-item @_transacciones">
+            <NavLink data-bs-toggle="collapse" href="#sidebarTransacciones" aria-expanded="false" aria-controls="sidebarTransacciones" class="side-nav-link">
+                <i class="fas fa-angle-double-up"></i>
+                <span> Transfe </span>
+                <span class="menu-arrow"></span>
+            </NavLink>
+            <div class="collapse" id="sidebarTransacciones">
+                <ul class="side-nav-second-level">
+                    <li class="@_cuentasPropias">
+                        <NavLink href="transferencia-propia" @onclick="() => ActivarLink(3)">Entre mis cuentas</NavLink>
+                    </li>
+                    <li class="@_cuentasTerceros">
+                        <NavLink href="transferencia-terceros" @onclick="() => ActivarLink(3)">A cuentas de Banco Popular</NavLink>
+                    </li>
+                    <li class="@_cuentasACH">
+                        <NavLink href="transferencia-ach" @onclick="() => ActivarLink(3)">A cuentas en otros bancos</NavLink>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="side-nav-item @_prestamos">
+            <NavLink data-bs-toggle="collapse" href="#sidebarPrestamos" aria-expanded="false" aria-controls="sidebarPrestamos" class="side-nav-link">
+                <i class="fas fa-building"></i>
+                <span> Préstamos </span>
+                <span class="menu-arrow"></span>
+            </NavLink>
+            <div class="collapse" id="sidebarPrestamos">
+                <ul class="side-nav-second-level">
+                    <li class="@_prestamosPropios">
+                        <NavLink href="maps-google.html" @onclick="() => ActivarLink(4)">Propios</NavLink>
+                    </li>
+                    <li class="@_prestamosTerceros">
+                        <NavLink href="maps-vector.html" @onclick="() => ActivarLink(4)">En Banco Popular</NavLink>
+                    </li>
+                    <li class="@_prestamosACH">
+                        <NavLink href="maps-vector.html" @onclick="() => ActivarLink(4)">En otros bancos</NavLink>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="side-nav-item @_tarjetaCredito">
+            <NavLink data-bs-toggle="collapse" href="#sidebarTarjetas" aria-expanded="false" aria-controls="tarjetasCredito" class="side-nav-link">
+                <i class="fas fa-credit-card"></i>
+                <span> Tarjetas de crédito </span>
+                <span class="menu-arrow"></span>
+            </NavLink>
+            <div class="collapse" id="sidebarTarjetas">
+                <ul class="side-nav-second-level">
+                    <li class="@_tarjetaCreditoACH">
+                        <NavLink href="maps-vector.html" @onclick="() => ActivarLink(5)">En otros bancos</NavLink>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="side-nav-item side-nav-item @_movimiento" @onclick="() => ActivarLink(6)">
+            <NavLink href="apps-chat.html" class="side-nav-link">
+                <i class="fas fa-search"></i>
+                <span> Mis movimientos </span>
+            </NavLink>
+        </li>
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+@code
+{
+    private string _inicioActive = "";
+    private string _administracio = "";
+    private string _transacciones = "";
+    private string _prestamos = "";
+    private string _tarjetaCredito = "";
+    private string _tarjetaCreditoACH = "";
+    private string _cuentasPropias = "";
+    private string _cuentasTerceros = "";
+    private string _cuentasACH = "";
+    private string _prestamosPropios = "";
+    private string _prestamosTerceros = "";
+    private string _prestamosACH = "";
+    private string _movimiento = "";
+
+    protected override void OnInitialized()
+    {
+        _inicioActive = "menuitem-active";
+    }
+
+    private void ActivarLink(int link)
+    {
+        DesactivarTodos();
+
+        if (link is 1)
+            _inicioActive = "menuitem-active";
+
+        if (link is 2)
+            _administracio = "menuitem-active";
+
+        if (link is 3)
+            _transacciones = "menuitem-active";
+        _cuentasPropias = "menuitem-active";
+        _cuentasTerceros = "menuitem-active";
+        _cuentasACH = "menuitem-active";
+
+        if (link is 4)
+            _prestamos = "menuitem-active";
+        _prestamosPropios = "menuitem-active";
+        _prestamosTerceros = "menuitem-active";
+        _prestamosACH = "menuitem-active";
+
+        if (link is 5)
+            _tarjetaCredito = "menuitem-active";
+        _tarjetaCreditoACH = "menuitem-active";
+
+        if (link is 6)
+            _movimiento = "menuitem-active";
+
+    }
+
+    private void DesactivarTodos()
+    {
+        _inicioActive = "";
+        _administracio = "";
+        _transacciones = "";
+        _prestamos = "";
+        _tarjetaCredito = "";
+        _tarjetaCreditoACH = "";
+        _cuentasPropias = "";
+        _cuentasTerceros = "";
+        _cuentasACH = "";
+        _prestamosPropios = "";
+        _prestamosTerceros = "";
+        _prestamosACH = "";
+        _movimiento = "";
+    }
+}
