@@ -1,0 +1,77 @@
+﻿@using SARAS.Frontend.Transversal.DTO.ActividadEconomicaAmbientalDTO
+@using SARAS.Frontend.Transversal.Helpers
+@inject IHelpers helper
+
+<div class="tab-one" @Wizard[0] id="basictab1">
+    <div class="row">
+        <EditForm OnValidSubmit="Siguiente" Model=actividadAmbientalFrmDTO>
+            <DataAnnotationsValidator />
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example" @bind="actividadAmbientalFrmDTO.nombreCategoria">
+                            <option selected disabled>Selecciona:</option>
+                            @foreach (var actividad in ActividadEconomicaAmbientalDTO)
+                            {
+                                <option value="@actividad.nombreCategoria">@actividad.codigo</option>
+                            }
+                        </select>
+                        <label for="floatingSelect">Asignar nivel de riesgo</label>
+                        <div class="popular-color-error">
+                            <ValidationMessage For="@(()=> actividadAmbientalFrmDTO.nombreCategoria)" />
+                        </div>
+                    </div>
+                    <br />
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example" @bind="actividadAmbientalFrmDTO.nombreCategoria">
+                            <option selected disabled>Selecciona:</option>
+                            @foreach (var actividad in ActividadEconomicaAmbientalDTO)
+                            {
+                                <option value="@actividad.nombreCategoria">@actividad.codigo</option>
+                            }
+                        </select>
+                        <label for="floatingSelect">Asignar categoría</label>
+                        <div class="popular-color-error">
+                            <ValidationMessage For="@(()=> actividadAmbientalFrmDTO.nombreCategoria)" />
+                        </div>
+                    </div>
+                    <br />
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating mb-3">
+                        <InputNumber class="form-control" id="floatingInput" placeholder="Código de actividad" @bind-Value="actividadAmbientalFrmDTO.nivelRiesgo" maxlength="20" />
+                        <label for="floatingInput">Ingrese código de actividad</label>
+                        <div class="popular-color-error">
+                            <ValidationMessage For="@(()=> actividadAmbientalFrmDTO.nivelRiesgo)" />
+                        </div>
+                    </div>
+                    <br />
+                </div>
+                <div class="col-md-12">
+                    <div class="form-floating mb-3">
+                        <InputText class="form-control" id="floatingInput" placeholder="Nombre actividad" @bind-Value="actividadAmbientalFrmDTO.nombreCategoria" maxlength="100" />
+                        <label for="floatingSelect">Ingrese el nombre de la actividad económica</label>
+                        <div class="popular-color-error">
+                            <ValidationMessage For="@(()=> actividadAmbientalFrmDTO.nombreCategoria)" />
+                        </div>
+                    </div>
+                    <br />
+                </div>
+                <ul class="list-inline wizard mb-0">
+                    <li class="next list-inline-item float-end">
+                       <button type="submit" class="btn btn-warning popular-button-secondary"> Siguiente</button>
+                    </li>
+                </ul>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+    @code {
+    [Parameter] public string[] Wizard { get; set; }
+    [Parameter] public ActividadEconomicaAmbientalDTO actividadAmbientalFrmDTO { get; set; }
+    [Parameter] public EventCallback Siguiente { get; set; }
+    [Parameter] public List<ActividadEconomicaAmbientalDTO> ActividadEconomicaAmbientalDTO { get; set; }
+}
