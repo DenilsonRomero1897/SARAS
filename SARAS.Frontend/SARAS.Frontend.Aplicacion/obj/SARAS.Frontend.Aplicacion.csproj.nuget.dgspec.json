@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\denilson.romero\\Downloads\\SARAS.Frontend\\SARAS.Frontend.Aplicacion\\SARAS.Frontend.Aplicacion.csproj": {}
+    "C:\\Users\\kbecker\\Desktop\\Isai\\SARAS.Frontend\\SARAS.Frontend.Aplicacion\\SARAS.Frontend.Aplicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\denilson.romero\\Downloads\\SARAS.Frontend\\SARAS.Frontend.Aplicacion\\SARAS.Frontend.Aplicacion.csproj": {
+    "C:\\Users\\kbecker\\Desktop\\Isai\\SARAS.Frontend\\SARAS.Frontend.Aplicacion\\SARAS.Frontend.Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\denilson.romero\\Downloads\\SARAS.Frontend\\SARAS.Frontend.Aplicacion\\SARAS.Frontend.Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\kbecker\\Desktop\\Isai\\SARAS.Frontend\\SARAS.Frontend.Aplicacion\\SARAS.Frontend.Aplicacion.csproj",
         "projectName": "SARAS.Frontend.Aplicacion",
-        "projectPath": "C:\\Users\\denilson.romero\\Downloads\\SARAS.Frontend\\SARAS.Frontend.Aplicacion\\SARAS.Frontend.Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\denilson.romero\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\denilson.romero\\Downloads\\SARAS.Frontend\\SARAS.Frontend.Aplicacion\\obj\\",
+        "projectPath": "C:\\Users\\kbecker\\Desktop\\Isai\\SARAS.Frontend\\SARAS.Frontend.Aplicacion\\SARAS.Frontend.Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\kbecker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kbecker\\Desktop\\Isai\\SARAS.Frontend\\SARAS.Frontend.Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\denilson.romero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kbecker\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -56,7 +56,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

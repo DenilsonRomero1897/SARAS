@@ -1,0 +1,19 @@
+﻿@using SARAS.Frontend.Transversal.DTO.ActividadEconomicaAmbientalDTO
+<div class="tab-pane @Wizard[2]" id ="basictab2">
+    <div class="row">
+        <center> 
+            <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="mdi mdi-close"></i></button>
+        </center>
+        <br />
+        <h3 class="cta-box-title text-center">No  se pudo completar el guardado, favor intentar de nuevo más tarde</h3>
+        <br />
+    </div>
+</div>
+<br />
+<center>
+    <a class="btn btn-danger waves-effeect waves-light m-r-10" href="Index">Ir a inicio</a>
+</center>
+@code {
+    [Parameter] public string[] Wizard { get; set; }
+    [Parameter] public ConfirmarActividadEconomicaDTO confirmarActividadEconomicaDTO { get; set; }
+}

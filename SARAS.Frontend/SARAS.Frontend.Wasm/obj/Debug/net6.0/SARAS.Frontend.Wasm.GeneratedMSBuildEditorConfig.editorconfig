@@ -11,69 +11,93 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = SARAS.Frontend.Wasm
 build_property.RootNamespace = SARAS.Frontend.Wasm
-build_property.ProjectDir = C:\Users\denilson.romero\Downloads\SARAS.Frontend\SARAS.Frontend.Wasm\
+build_property.ProjectDir = C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Wasm\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\denilson.romero\Downloads\SARAS.Frontend\SARAS.Frontend.Wasm
+build_property.MSBuildProjectDirectory = C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Wasm
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/App.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Pages/Counter.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Components/ActividadEconomicaSocial/FrmActividadEconomicaSocialComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY3RpdmlkYWRFY29ub21pY2FTb2NpYWxcRnJtQWN0aXZpZGFkRWNvbm9taWNhU29jaWFsQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Components/ActividadEconomicaSocial/MensajeActividadEconomicaAmbientalComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY3RpdmlkYWRFY29ub21pY2FTb2NpYWxcTWVuc2FqZUFjdGl2aWRhZEVjb25vbWljYUFtYmllbnRhbENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Components/ActividadEconomicaSocial/TablaActividadEconomicaAmbientalComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY3RpdmlkYWRFY29ub21pY2FTb2NpYWxcVGFibGFBY3RpdmlkYWRFY29ub21pY2FBbWJpZW50YWxDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Components/ActividadEconomicaSocial/WizardHeadActividadEconomicaAmbientalComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY3RpdmlkYWRFY29ub21pY2FTb2NpYWxcV2l6YXJkSGVhZEFjdGl2aWRhZEVjb25vbWljYUFtYmllbnRhbENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Components/ActividadEconomicaSocial/WizardPestañasActividadEconomicaAmbientalComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY3RpdmlkYWRFY29ub21pY2FTb2NpYWxcV2l6YXJkUGVzdGHDsWFzQWN0aXZpZGFkRWNvbm9taWNhQW1iaWVudGFsQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Pages/ActividadEconomicaAmbiental/ActividadAmbientalPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0aXZpZGFkRWNvbm9taWNhQW1iaWVudGFsXEFjdGl2aWRhZEFtYmllbnRhbFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Pages/FetchData.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Pages/Index.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/EmptyLayout.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/EmptyLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVtcHR5TGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/FooterComponent.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/FooterComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3RlckNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/HeadMenuComponent.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/HeadMenuComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRNZW51Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/HeadPageComponent.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/HeadPageComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRQYWdlQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/LogoComponent.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/LogoComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ29Db21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/PaginaNoEncontradaPage.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/PaginaNoEncontradaPage.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhZ2luYU5vRW5jb250cmFkYVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/SideMenuComponent.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/SideMenuComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpZGVNZW51Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/SurveyPrompt.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/_Imports.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/MainLayout.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-xle5qbvlq7
 
-[C:/Users/denilson.romero/Downloads/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/NavMenu.razor]
+[C:/Users/kbecker/Desktop/Isai/SARAS.Frontend/SARAS.Frontend.Wasm/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-udz2aqoh5x
