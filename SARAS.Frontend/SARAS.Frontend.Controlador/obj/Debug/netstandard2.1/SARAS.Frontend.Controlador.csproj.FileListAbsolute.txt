@@ -28,3 +28,13 @@ C:\Users\denilson.romero\Downloads\SARAS.Frontend\SARAS.Frontend.Controlador\obj
 C:\Users\denilson.romero\Downloads\SARAS.Frontend\SARAS.Frontend.Controlador\obj\Debug\netstandard2.1\SARAS.Frontend.Controlador.csproj.CoreCompileInputs.cache
 C:\Users\denilson.romero\Downloads\SARAS.Frontend\SARAS.Frontend.Controlador\obj\Debug\netstandard2.1\SARAS.Frontend.Controlador.dll
 C:\Users\denilson.romero\Downloads\SARAS.Frontend\SARAS.Frontend.Controlador\obj\Debug\netstandard2.1\SARAS.Frontend.Controlador.pdb
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Controlador\bin\Debug\netstandard2.1\SARAS.Frontend.Controlador.deps.json
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Controlador\bin\Debug\netstandard2.1\SARAS.Frontend.Controlador.dll
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Controlador\bin\Debug\netstandard2.1\SARAS.Frontend.Controlador.pdb
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Controlador\obj\Debug\netstandard2.1\SARAS.Frontend.Controlador.csproj.AssemblyReference.cache
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Controlador\obj\Debug\netstandard2.1\SARAS.Frontend.Controlador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Controlador\obj\Debug\netstandard2.1\SARAS.Frontend.Controlador.AssemblyInfoInputs.cache
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Controlador\obj\Debug\netstandard2.1\SARAS.Frontend.Controlador.AssemblyInfo.cs
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Controlador\obj\Debug\netstandard2.1\SARAS.Frontend.Controlador.csproj.CoreCompileInputs.cache
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Controlador\obj\Debug\netstandard2.1\SARAS.Frontend.Controlador.dll
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Controlador\obj\Debug\netstandard2.1\SARAS.Frontend.Controlador.pdb
