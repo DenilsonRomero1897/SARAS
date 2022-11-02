@@ -1,9 +1,10 @@
 ﻿@page "/listado-actividad-ambiental"
-@using Blazored.Modal.Services
+@*@using Blazored.Modal.Services
 @using SARAS.Frontend.Controlador.ActividadController
 @using SARAS.Frontend.Transversal.DTO.ActividadEconomicaAmbientalDTO
+
+@inject IActividadEconomicaAmbientalController controlador*@
 @using SARAS.Frontend.Wasm.Components.ActividadEconomicaSocial
-@inject IActividadEconomicaAmbientalController controlador
 @inject IJSRuntime JS
 @inject NavigationManager NavigationManager
 
@@ -23,14 +24,14 @@
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                             <div id="progressbarwizard">
-                                <WizardPestañasActividadEconomicaAmbientalComponent Wizard="controlador.Wizard" ErrorColor="ErrorColor" />
+                                @*<WizardPestañasActividadEconomicaAmbientalComponent Wizard="controlador.Wizard" ErrorColor="ErrorColor" />*@
                                 <div class="tab-content b-0 mb-0">
-                                    <WizardHeadActividadEconomicaAmbientalComponent BarraPorcentaje="@controlador.BarraPorcentaje" 
-                                    MostrarLoader="controlador.MostrarLoader"/>
-                                    <FrmActividadEconomicaSocialComponent Wizard="controlador.Wizard"
-                                                                          actividadAmbientalFrmDTO=" actividadAmbientalFrmDTO" 
+                                   @* <WizardHeadActividadEconomicaAmbientalComponent BarraPorcentaje="@controlador.BarraPorcentaje" 
+                                    MostrarLoader="controlador.MostrarLoader"/>*@
+                                    <FrmActividadEconomicaSocialComponent @* Wizard="controlador.Wizard"
+                                                                         actividadAmbientalFrmDTO="actividadAmbientalFrmDTO"
                                                                           ActividadEconomicaAmbientalDTO="actividadEconomicaAmbientalDTO" 
-                                                                          Siguiente="ValidarActividadEconomica"/>
+                                                                          Siguiente="ValidarActividadEconomica" *@ />
                                 </div>
                             </div>
                         </div>
@@ -45,36 +46,36 @@
 </div>
 
 @code {
-    [CascadingParameter] public IModalService Modal { get; set; }
-    private bool Error = false;
-    private string ErrorColor = "";
-    private bool EnAccion= false;
-    private ActividadAmbientalFrmDTO actividadAmbientalFrmDTO = new ActividadAmbientalFrmDTO();
-    private List<ActividadEconomicaAmbientalDTO> actividadEconomicaAmbientalDTO = new List<ActividadEconomicaAmbientalDTO>();
+    //[CascadingParameter] public IModalService Modal { get; set; }
+    //private bool Error = false;
+    //private string ErrorColor = "";
+    //private bool EnAccion= false;
+    //private ActividadAmbientalFrmDTO actividadAmbientalFrmDTO = new ActividadAmbientalFrmDTO();
+    //private List<ActividadEconomicaAmbientalDTO> actividadEconomicaAmbientalDTO = new List<ActividadEconomicaAmbientalDTO>();
     
     //protected override async Task OnParamentersSetAsync(){
     //    //var obtenerRiesgo   = await actividadAmbientalFrmDTO.ObtenerRiesgo(new BrowserRequestCache )
     //}
 
-    private async Task ValidarActividadEconomica()
-    {
-        if (EnAccion)
-            return;
+    //private async Task ValidarActividadEconomica()
+    //{
+    //    if (EnAccion)
+    //        return;
 
-        EnAccion = true;
-        bool validador = true;
+    //    EnAccion = true;
+    //    bool validador = true;
         
 
-        if (validador)
-        {
-            //var cuenta = new CuentaObtenerInformacionDTO
-            //    {
-            //        Cuenta = actividadAmbientalFrmDTO.nombreCategoria
-            //    };
-            //var monedaCuenta = await productoAplicacion.ObtenerInformacionCuenta(cuenta);
-            //actividadAmbientalFrmDTO.moneda = (monedaCuenta.Entidad.Moneda == "LPS") ? "L" : "$";
-            EnAccion = false;
-            await controlador.Siguiente();
-        }
-    }
+    //    if (validador)
+    //    {
+    //        //var cuenta = new CuentaObtenerInformacionDTO
+    //        //    {
+    //        //        Cuenta = actividadAmbientalFrmDTO.nombreCategoria
+    //        //    };
+    //        //var monedaCuenta = await productoAplicacion.ObtenerInformacionCuenta(cuenta);
+    //        //actividadAmbientalFrmDTO.moneda = (monedaCuenta.Entidad.Moneda == "LPS") ? "L" : "$";
+    //        EnAccion = false;
+    //        await controlador.Siguiente();
+    //    }
+    //}
 }

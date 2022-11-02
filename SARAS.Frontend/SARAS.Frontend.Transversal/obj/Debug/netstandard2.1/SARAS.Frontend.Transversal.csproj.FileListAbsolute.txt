@@ -28,3 +28,13 @@ C:\Users\denilson.romero\Downloads\SARAS.Frontend\SARAS.Frontend.Transversal\obj
 C:\Users\denilson.romero\Downloads\SARAS.Frontend\SARAS.Frontend.Transversal\obj\Debug\netstandard2.1\SARAS.Frontend.Transversal.csproj.CoreCompileInputs.cache
 C:\Users\denilson.romero\Downloads\SARAS.Frontend\SARAS.Frontend.Transversal\obj\Debug\netstandard2.1\SARAS.Frontend.Transversal.dll
 C:\Users\denilson.romero\Downloads\SARAS.Frontend\SARAS.Frontend.Transversal\obj\Debug\netstandard2.1\SARAS.Frontend.Transversal.pdb
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Transversal\bin\Debug\netstandard2.1\SARAS.Frontend.Transversal.deps.json
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Transversal\bin\Debug\netstandard2.1\SARAS.Frontend.Transversal.dll
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Transversal\bin\Debug\netstandard2.1\SARAS.Frontend.Transversal.pdb
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Transversal\obj\Debug\netstandard2.1\SARAS.Frontend.Transversal.csproj.AssemblyReference.cache
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Transversal\obj\Debug\netstandard2.1\SARAS.Frontend.Transversal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Transversal\obj\Debug\netstandard2.1\SARAS.Frontend.Transversal.AssemblyInfoInputs.cache
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Transversal\obj\Debug\netstandard2.1\SARAS.Frontend.Transversal.AssemblyInfo.cs
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Transversal\obj\Debug\netstandard2.1\SARAS.Frontend.Transversal.csproj.CoreCompileInputs.cache
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Transversal\obj\Debug\netstandard2.1\SARAS.Frontend.Transversal.dll
+C:\Users\kbecker\Desktop\Isai\SARAS.Frontend\SARAS.Frontend.Transversal\obj\Debug\netstandard2.1\SARAS.Frontend.Transversal.pdb

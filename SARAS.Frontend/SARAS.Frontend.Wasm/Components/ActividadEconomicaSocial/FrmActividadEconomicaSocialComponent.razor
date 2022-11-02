@@ -2,7 +2,7 @@
 @using SARAS.Frontend.Transversal.Helpers
 @inject IHelpers helper
 
-<div class="tab-one" @Wizard[0] id="basictab1">
+<div class="tab-one"@* @Wizard[0]*@ id="basictab1">
     <div class="row">
         <EditForm OnValidSubmit="Siguiente" Model=actividadAmbientalFrmDTO>
             <DataAnnotationsValidator />
@@ -70,7 +70,7 @@
 </div>
 
     @code {
-    [Parameter] public string[] Wizard { get; set; }
+    //[Parameter] public string[] Wizard { get; set; }
     [Parameter] public ActividadEconomicaAmbientalDTO actividadAmbientalFrmDTO { get; set; }
     [Parameter] public EventCallback Siguiente { get; set; }
     [Parameter] public List<ActividadEconomicaAmbientalDTO> ActividadEconomicaAmbientalDTO { get; set; }
